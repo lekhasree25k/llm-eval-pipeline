@@ -1,0 +1,26 @@
+[
+  {
+    "id": "warranty",
+    "question": "How long is the warranty on the motor?",
+    "context": "The fan comes with a 2-year warranty on the product and a 5-year warranty on the BLDC motor.",
+    "expected": "The motor has a 5-year warranty."
+  },
+  {
+    "id": "power",
+    "question": "How much power does the fan consume at top speed?",
+    "context": "At maximum speed, the fan consumes 28 watts. It is rated at 5 stars for energy efficiency.",
+    "expected": "It consumes 28 watts at top speed."
+  },
+  {
+    "id": "remote",
+    "question": "What batteries does the remote use?",
+    "context": "The remote control uses 2 AAA batteries, which are not included in the box.",
+    "expected": "The remote uses 2 AAA batteries, not included."
+  },
+  {
+    "id": "out_of_scope",
+    "question": "What is the price of the fan?",
+    "context": "The fan comes with a 2-year warranty and a 5-year warranty on the BLDC motor.",
+    "expected": "I don't have that information."
+  }
+]
